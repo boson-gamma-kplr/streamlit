@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title = "Data Manipulation and Visualization", layout="wide")
 st.title("Data Manipulation and Visualization")
 st.markdown("![Streamlit](https://res.cloudinary.com/dyd911kmh/image/upload/v1640050215/image27_frqkzv.png)")
-st.markdown("[liens vers la doc ](https://docs.streamlit.io/)")
+st.markdown("[liens vers la doc](https://docs.streamlit.io/)")
+st.markdown("[Cheat sheet](https://docs.streamlit.io/library/cheatsheet)")
 st.markdown("""Sommaire :
 1. File import
 ---
@@ -64,4 +65,7 @@ if file is not None:
 # de haut en bas. Comme ce bouton n'est connecté à aucune
 # autre logique, il ne fait que renvoyer un résultat vide.
 
+#number = st.number_input("number input", min_value = 0, max_value = 10,step=2)
+#text = st.text_area("input text multiple lines")
+#date = st.date_input("date input")
 st.button("Re-run")
